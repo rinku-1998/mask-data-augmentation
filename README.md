@@ -18,8 +18,9 @@ pip install -r requirements-dev.txt # 開發
 
 - 執行步驟
 
+1. (可選)定義資料增強，可以修改 `define_transform.py`，並參考 [Albumentations - A list of transforms and their supported targets](<(https://albumentations.ai/docs/getting_started/transforms_and_targets/)>) 的說明網頁。
 1. 將影像與 Mask 分別放到 `data/imgs` 與 `data/masks` 資料夾下
-2. 執行 `generate.py`
+1. 執行 `generate.py`
 
 - 參數說明
 
